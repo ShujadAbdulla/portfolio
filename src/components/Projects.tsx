@@ -64,46 +64,53 @@ const Projects = () => {
   const getCategoryColor = (category) => {
     switch (category) {
       case "Full Stack":
-        return "bg-blue-600/20 text-blue-300 border-blue-500/30";
+        return "bg-gradient-to-r from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-400/30 hover:from-blue-400/30 hover:to-cyan-400/30";
       case "Backend":
-        return "bg-green-600/20 text-green-300 border-green-500/30";
+        return "bg-gradient-to-r from-green-500/20 to-emerald-500/20 text-green-300 border-green-400/30 hover:from-green-400/30 hover:to-emerald-400/30";
       case "AI/ML":
-        return "bg-purple-600/20 text-purple-300 border-purple-500/30";
+        return "bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-purple-300 border-purple-400/30 hover:from-purple-400/30 hover:to-pink-400/30";
       default:
-        return "bg-gray-600/20 text-gray-300 border-gray-500/30";
+        return "bg-gradient-to-r from-gray-500/20 to-slate-500/20 text-gray-300 border-gray-400/30 hover:from-gray-400/30 hover:to-slate-400/30";
     }
   };
 
   return (
-    <section className="py-20 bg-black/20">
+    <section className="py-20 bg-gradient-to-br from-slate-800/30 via-purple-800/20 to-indigo-800/30">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-white mb-12 text-center">Featured Projects</h2>
+        <h2 className="text-4xl font-bold text-white mb-12 text-center hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-500">
+          Featured Projects
+        </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-white/5 to-white/10 rounded-xl overflow-hidden border border-white/10 hover:border-white/20 transition-all duration-300 hover:scale-105 group"
+              className="group bg-gradient-to-br from-white/5 to-white/10 hover:from-white/10 hover:to-white/20 rounded-xl overflow-hidden border border-white/10 hover:border-white/30 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/10"
             >
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="absolute top-4 right-4">
-                  <span className={`px-3 py-1 rounded-full text-xs font-medium border ${getCategoryColor(project.category)}`}>
+                  <span className={`px-3 py-1 rounded-full text-xs font-medium border transition-all duration-300 ${getCategoryColor(project.category)}`}>
                     {project.category}
                   </span>
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-3">{project.title}</h3>
-                <p className="text-gray-300 text-sm mb-4 line-clamp-3">{project.description}</p>
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-purple-300 transition-colors duration-300">
+                  {project.title}
+                </h3>
+                <p className="text-gray-300 text-sm mb-4 line-clamp-3 group-hover:text-white transition-colors duration-300">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="bg-white/10 text-white px-2 py-1 rounded text-xs border border-white/20"
+                      className="bg-white/10 hover:bg-white/20 text-white px-2 py-1 rounded text-xs border border-white/20 hover:border-white/40 hover:scale-110 transition-all duration-300"
                     >
                       {tech}
                     </span>
@@ -115,7 +122,7 @@ const Projects = () => {
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center space-x-2 bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 text-sm"
+                      className="flex items-center space-x-2 bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-700 hover:to-gray-800 text-white px-4 py-2 rounded-lg transition-all duration-300 text-sm hover:scale-110 hover:shadow-lg"
                     >
                       <Github size={16} />
                       <span>Code</span>
@@ -126,7 +133,7 @@ const Projects = () => {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 text-sm"
+                      className="flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white px-4 py-2 rounded-lg transition-all duration-300 text-sm hover:scale-110 hover:shadow-lg"
                     >
                       <ArrowUp size={16} />
                       <span>Live</span>

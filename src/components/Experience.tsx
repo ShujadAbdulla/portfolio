@@ -36,40 +36,54 @@ const Experience = () => {
   ];
 
   return (
-    <section className="py-20 bg-black/20">
+    <section className="py-20 bg-gradient-to-br from-slate-800/20 via-purple-800/10 to-indigo-800/20">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-white mb-12 text-center">Work Experience</h2>
+        <h2 className="text-4xl font-bold text-white mb-12 text-center hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-500">
+          Work Experience
+        </h2>
         <div className="max-w-4xl mx-auto space-y-8">
           {experiences.map((exp, index) => (
             <div
               key={index}
-              className="bg-gradient-to-r from-blue-600/10 to-purple-600/10 p-8 rounded-xl border border-white/10 hover:border-white/20 transition-all duration-300"
+              className="group bg-gradient-to-r from-blue-600/10 to-purple-600/10 hover:from-blue-500/20 hover:to-purple-500/20 p-8 rounded-xl border border-white/10 hover:border-white/30 transition-all duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer"
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-bold text-white">{exp.title}</h3>
-                  <p className="text-blue-300 text-lg">{exp.company}</p>
+                  <h3 className="text-2xl font-bold text-white group-hover:text-purple-300 transition-colors duration-300">
+                    {exp.title}
+                  </h3>
+                  <p className="text-blue-300 text-lg group-hover:text-pink-300 transition-colors duration-300">
+                    {exp.company}
+                  </p>
                 </div>
                 <div className="text-right mt-2 md:mt-0">
-                  <p className="text-gray-300 font-medium">{exp.period}</p>
-                  <p className="text-gray-400">{exp.location}</p>
+                  <p className="text-gray-300 font-medium group-hover:text-white transition-colors duration-300">
+                    {exp.period}
+                  </p>
+                  <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+                    {exp.location}
+                  </p>
                 </div>
               </div>
               <div className="space-y-4">
                 <div>
-                  <h4 className="text-lg font-semibold text-white mb-3">Key Responsibilities:</h4>
+                  <h4 className="text-lg font-semibold text-white mb-3 group-hover:text-purple-300 transition-colors duration-300">
+                    Key Responsibilities:
+                  </h4>
                   <ul className="space-y-2">
                     {exp.responsibilities.map((resp, idx) => (
-                      <li key={idx} className="text-gray-300 flex items-start">
-                        <span className="text-blue-400 mr-2 mt-1">•</span>
-                        {resp}
+                      <li key={idx} className="text-gray-300 flex items-start group-hover:text-white transition-colors duration-300">
+                        <span className="text-blue-400 group-hover:text-purple-400 mr-2 mt-1 transition-colors duration-300">•</span>
+                        <span className="hover:text-purple-300 transition-colors duration-200">{resp}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="bg-green-600/20 p-4 rounded-lg border border-green-500/30">
-                  <h4 className="text-green-300 font-semibold mb-2">Impact:</h4>
-                  <p className="text-gray-300">{exp.impact}</p>
+                <div className="bg-gradient-to-r from-green-600/20 to-emerald-600/20 hover:from-green-500/30 hover:to-emerald-500/30 p-4 rounded-lg border border-green-500/30 hover:border-green-400/50 transition-all duration-300">
+                  <h4 className="text-green-300 font-semibold mb-2 hover:text-green-200 transition-colors duration-300">
+                    Impact:
+                  </h4>
+                  <p className="text-gray-300 hover:text-white transition-colors duration-300">{exp.impact}</p>
                 </div>
               </div>
             </div>

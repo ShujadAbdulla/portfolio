@@ -5,23 +5,27 @@ import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/40 via-purple-800/40 to-pink-700/40"></div>
+      <div className="absolute inset-0 backdrop-blur-sm"></div>
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
-          <div className="mb-8">
-            <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
-              alt="Villa Swami Kiran"
-              className="w-40 h-40 rounded-full mx-auto mb-6 border-4 border-white/20 shadow-2xl hover:scale-105 transition-transform duration-300"
-            />
+          <div className="mb-8 group">
+            <div className="relative w-48 h-48 mx-auto mb-6">
+              <img
+                src="/lovable-uploads/a9b28e3a-a256-4988-8e91-b593773d90d5.png"
+                alt="Villa Swami Kiran"
+                className="w-full h-full rounded-full object-cover border-4 border-white/30 shadow-2xl hover:scale-110 transition-all duration-500 hover:shadow-purple-500/25 hover:border-purple-400/50"
+              />
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500/20 to-pink-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-500">
             Villa Swami Kiran
           </h1>
-          <h2 className="text-2xl md:text-3xl text-blue-300 mb-8">
+          <h2 className="text-2xl md:text-3xl text-blue-300 mb-8 hover:text-purple-300 transition-colors duration-300">
             Full Stack Developer & Software Instructor
           </h2>
-          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed hover:text-white transition-colors duration-300">
             Passionate software engineer with expertise in full-stack development, 
             currently mentoring aspiring developers and building innovative solutions.
           </p>
@@ -30,7 +34,7 @@ const Hero = () => {
               href="https://www.linkedin.com/in/swami-kiran-villa-3a43b520a"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full transition-all duration-300 hover:scale-110 shadow-lg"
+              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white p-4 rounded-full transition-all duration-300 hover:scale-125 hover:rotate-6 shadow-lg hover:shadow-blue-500/25"
             >
               <Linkedin size={24} />
             </a>
@@ -38,21 +42,21 @@ const Hero = () => {
               href="https://github.com/villaswami"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gray-800 hover:bg-gray-700 text-white p-4 rounded-full transition-all duration-300 hover:scale-110 shadow-lg"
+              className="bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-700 hover:to-gray-800 text-white p-4 rounded-full transition-all duration-300 hover:scale-125 hover:rotate-6 shadow-lg hover:shadow-gray-500/25"
             >
               <Github size={24} />
             </a>
             <a
               href="mailto:villa.swamikiran9490@gmail.com"
-              className="bg-red-600 hover:bg-red-700 text-white p-4 rounded-full transition-all duration-300 hover:scale-110 shadow-lg"
+              className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white p-4 rounded-full transition-all duration-300 hover:scale-125 hover:rotate-6 shadow-lg hover:shadow-red-500/25"
             >
               <Mail size={24} />
             </a>
           </div>
         </div>
       </div>
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <ArrowDown className="text-white/60" size={32} />
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hover:animate-pulse cursor-pointer">
+        <ArrowDown className="text-white/60 hover:text-purple-400 transition-colors duration-300" size={32} />
       </div>
     </section>
   );
