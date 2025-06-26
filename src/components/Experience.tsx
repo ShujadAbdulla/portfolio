@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Experience = () => {
@@ -37,9 +36,9 @@ const Experience = () => {
 
   const certificationsAndAchievements = [
     {
-      title: "Outstanding Performance Recognition",
-      description: "Recognized for exceptional contribution in mentoring and training aspiring developers",
-      image: "/lovable-uploads/a9b28e3a-a256-4988-8e91-b593773d90d5.png",
+      title: "Delivery Excellence Achievement",
+      description: "Recognized for outstanding performance towards achieving Delivery Excellence at Siemens Advanta",
+      image: "/lovable-uploads/e81d99db-30ea-4775-9344-6fd7a4b297a8.png",
       type: "achievement"
     },
     {
