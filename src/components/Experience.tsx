@@ -35,11 +35,30 @@ const Experience = () => {
     }
   ];
 
-  const achievements = [
+  const certificationsAndAchievements = [
     {
       title: "Outstanding Performance Recognition",
       description: "Recognized for exceptional contribution in mentoring and training aspiring developers",
-      image: "/lovable-uploads/0b8b8d92-3e1c-4b88-9f53-a8c7d6e5f2b1.png"
+      image: "/lovable-uploads/a9b28e3a-a256-4988-8e91-b593773d90d5.png",
+      type: "achievement"
+    },
+    {
+      title: "Java Certificate by HackerRank",
+      description: "Certified in Java programming fundamentals and advanced concepts",
+      image: "/lovable-uploads/4f8eeb16-2e46-4707-8ce9-d1f4171940a9.png",
+      type: "certificate"
+    },
+    {
+      title: "ProGrad Certified Full Stack Developer", 
+      description: "Comprehensive certification covering full-stack development technologies",
+      image: "/lovable-uploads/247d184d-e56a-46b8-9728-593651823f0e.png",
+      type: "certificate"
+    },
+    {
+      title: "NASSCOM Certified Associate Analytics (SSC/Q2101) LEVEL 7",
+      description: "Professional certification in data analytics and business intelligence",
+      image: "/lovable-uploads/56ab1911-a0e1-41f2-b8cd-caaa4494f23c.png",
+      type: "certificate"
     }
   ];
 
@@ -98,30 +117,38 @@ const Experience = () => {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-white mb-8 text-center hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-amber-400 hover:to-orange-400 transition-all duration-500">
-            Achievements
+            Achievements & Certifications
           </h2>
-          <div className="grid md:grid-cols-1 gap-6">
-            {achievements.map((achievement, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {certificationsAndAchievements.map((item, index) => (
               <div
                 key={index}
-                className="group bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-400/30 hover:to-orange-400/30 p-6 rounded-xl border border-white/10 hover:border-white/30 transition-all duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer"
+                className={`group p-6 rounded-xl border border-white/10 hover:border-white/30 transition-all duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer ${
+                  item.type === 'achievement' 
+                    ? 'bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-400/30 hover:to-orange-400/30' 
+                    : 'bg-gradient-to-r from-blue-500/20 to-purple-500/20 hover:from-blue-400/30 hover:to-purple-400/30'
+                }`}
               >
-                <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="flex flex-col items-center text-center space-y-4">
                   <div className="flex-shrink-0">
                     <img
-                      src={achievement.image}
-                      alt={achievement.title}
-                      className="w-32 h-32 object-cover rounded-lg border border-white/20 group-hover:border-white/40 transition-all duration-300 group-hover:scale-110"
+                      src={item.image}
+                      alt={item.title}
+                      className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-lg border border-white/20 group-hover:border-white/40 transition-all duration-300 group-hover:scale-110"
                     />
                   </div>
-                  <div className="flex-grow text-center md:text-left">
-                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-300 transition-colors duration-300">
-                      {achievement.title}
+                  <div className="flex-grow">
+                    <h3 className={`text-lg md:text-xl font-bold text-white mb-2 transition-colors duration-300 ${
+                      item.type === 'achievement' 
+                        ? 'group-hover:text-amber-300' 
+                        : 'group-hover:text-purple-300'
+                    }`}>
+                      {item.title}
                     </h3>
-                    <p className="text-gray-300 group-hover:text-white transition-colors duration-300">
-                      {achievement.description}
+                    <p className="text-gray-300 group-hover:text-white transition-colors duration-300 text-sm md:text-base">
+                      {item.description}
                     </p>
                   </div>
                 </div>
