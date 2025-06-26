@@ -41,7 +41,7 @@ const Projects = () => {
     {
       title: "24*7 Pizza Delivery",
       description: "A full-featured online pizza ordering system that allows users to customize and order pizzas from home. Built with React.js frontend, Node.js backend, and MongoDB database, featuring real-time order tracking and payment integration.",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&h=300&fit=crop",
       technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Payment Gateway"],
       category: "Full Stack"
     },
@@ -75,7 +75,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-800/30 via-purple-800/20 to-indigo-800/30">
+    <section className="py-20 bg-gradient-to-br from-slate-900/80 via-purple-900/30 to-indigo-900/50 backdrop-blur-sm">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-white mb-12 text-center hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-500">
           Featured Projects

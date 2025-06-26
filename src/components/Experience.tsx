@@ -5,7 +5,7 @@ const Experience = () => {
   const experiences = [
     {
       title: "Software Developer Instructor",
-      company: "Current Position",
+      company: "NXTWave",
       period: "April 2024 - Present",
       location: "Remote",
       responsibilities: [
@@ -35,13 +35,21 @@ const Experience = () => {
     }
   ];
 
+  const achievements = [
+    {
+      title: "Outstanding Performance Recognition",
+      description: "Recognized for exceptional contribution in mentoring and training aspiring developers",
+      image: "/lovable-uploads/0b8b8d92-3e1c-4b88-9f53-a8c7d6e5f2b1.png"
+    }
+  ];
+
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-800/20 via-purple-800/10 to-indigo-800/20">
+    <section className="py-20 bg-gradient-to-br from-slate-900/90 via-purple-900/40 to-indigo-900/60 backdrop-blur-sm">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-white mb-12 text-center hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-500">
           Work Experience
         </h2>
-        <div className="max-w-4xl mx-auto space-y-8">
+        <div className="max-w-4xl mx-auto space-y-8 mb-16">
           {experiences.map((exp, index) => (
             <div
               key={index}
@@ -88,6 +96,38 @@ const Experience = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-white mb-8 text-center hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-amber-400 hover:to-orange-400 transition-all duration-500">
+            Achievements
+          </h2>
+          <div className="grid md:grid-cols-1 gap-6">
+            {achievements.map((achievement, index) => (
+              <div
+                key={index}
+                className="group bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-400/30 hover:to-orange-400/30 p-6 rounded-xl border border-white/10 hover:border-white/30 transition-all duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer"
+              >
+                <div className="flex flex-col md:flex-row items-center gap-6">
+                  <div className="flex-shrink-0">
+                    <img
+                      src={achievement.image}
+                      alt={achievement.title}
+                      className="w-32 h-32 object-cover rounded-lg border border-white/20 group-hover:border-white/40 transition-all duration-300 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="flex-grow text-center md:text-left">
+                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-amber-300 transition-colors duration-300">
+                      {achievement.title}
+                    </h3>
+                    <p className="text-gray-300 group-hover:text-white transition-colors duration-300">
+                      {achievement.description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
