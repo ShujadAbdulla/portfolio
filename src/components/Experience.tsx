@@ -38,25 +38,25 @@ const Experience = () => {
     {
       title: "Delivery Excellence Achievement",
       description: "Recognized for outstanding performance towards achieving Delivery Excellence at Siemens Advanta",
-      image: "/lovable-uploads/e81d99db-30ea-4775-9344-6fd7a4b297a8.png",
+      image: "/images/e81d99db-30ea-4775-9344-6fd7a4b297a8.png",
       type: "achievement"
     },
     {
       title: "Java Certificate by HackerRank",
       description: "Certified in Java programming fundamentals and advanced concepts",
-      image: "/lovable-uploads/4f8eeb16-2e46-4707-8ce9-d1f4171940a9.png",
+      image: "/images/4f8eeb16-2e46-4707-8ce9-d1f4171940a9.png",
       type: "certificate"
     },
     {
       title: "ProGrad Certified Full Stack Developer", 
       description: "Comprehensive certification covering full-stack development technologies",
-      image: "/lovable-uploads/247d184d-e56a-46b8-9728-593651823f0e.png",
+      image: "/images/247d184d-e56a-46b8-9728-593651823f0e.png",
       type: "certificate"
     },
     {
       title: "NASSCOM Certified Associate Analytics (SSC/Q2101) LEVEL 7",
       description: "Professional certification in data analytics and business intelligence",
-      image: "/lovable-uploads/56ab1911-a0e1-41f2-b8cd-caaa4494f23c.png",
+      image: "/images/56ab1911-a0e1-41f2-b8cd-caaa4494f23c.png",
       type: "certificate"
     }
   ];

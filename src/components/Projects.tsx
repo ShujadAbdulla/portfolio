@@ -14,7 +14,7 @@ const Projects = () => {
       category: "Full Stack"
     },
     {
-      title: "Travel Gemini Explorer",
+      title: "Travel Gemini Explorer Backend",
       description: "A comprehensive travel exploration platform that leverages Google's Gemini AI to provide intelligent travel recommendations and planning. Features include destination discovery, itinerary generation, and personalized travel suggestions with a modern, responsive interface.",
       image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500&h=300&fit=crop",
       technologies: ["React.js", "Gemini AI", "JavaScript", "CSS3", "API Integration"],
@@ -26,15 +26,15 @@ const Projects = () => {
       title: "Streaming Platform Backend",
       description: "A robust backend system for a streaming platform built with Node.js and Express.js. Features include user authentication, content management, video streaming optimization, user profiles, and comprehensive API endpoints for frontend integration.",
       image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=500&h=300&fit=crop",
-      technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "Multer", "API Design"],
+      technologies:  ["Node.js", "Express.js", "MongoDB", "Real-time APIs"],
       githubUrl: "https://github.com/villaswami/streming_platform",
       category: "Backend"
     },
     {
-      title: "Travel Booking System",
-      description: "A comprehensive backend system for managing travel bookings including buses and airports. Features booking management, route optimization, payment processing, and real-time availability tracking with robust API architecture.",
+      title: "Travel Booking System Backend",
+      description: "A comprehensive backend system for managing travel bookings including buses and airports. Features booking management, route optimization, and real-time availability tracking with robust API architecture.",
       image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=500&h=300&fit=crop",
-      technologies: ["Node.js", "Express.js", "MongoDB", "Payment Integration", "Real-time APIs"],
+      technologies: ["Node.js", "Express.js", "MongoDB", "Real-time APIs"],
       githubUrl: "https://github.com/villaswami/travlingBusesandAirports",
       category: "Backend"
     },
@@ -47,10 +47,10 @@ const Projects = () => {
     },
     {
       title: "Online Shopping System",
-      description: "A comprehensive e-commerce platform providing users with convenient online shopping experience. Built with Java backend and MySQL database, featuring product catalog, shopping cart, user authentication, and secure payment processing.",
+      description: "A comprehensive e-commerce platform providing users with convenient online shopping experience. Built with Node.js backend and SQLite database, featuring product catalog, shopping cart, user authentication.",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&h=300&fit=crop",
-      technologies: ["Java", "MySQL", "Spring Boot", "JSP", "Servlet"],
-      category: "Full Stack"
+      technologies:  ["Node.js", "Express.js", "MongoDB", "Real-time APIs"],
+      category: "Backend"
     },
     {
       title: "Drowsiness Detection System",

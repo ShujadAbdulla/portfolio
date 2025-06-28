@@ -23,7 +23,7 @@ const Skills = () => {
     },
     {
       title: "Technologies & Frameworks",
-      skills: ["Deep Learning", "Machine Learning", "Full Stack Development"],
+      skills: [ "Machine Learning", "Full Stack Development","Angular JS", "ASP.NET"],
       color: "from-orange-500/20 to-red-500/20",
       hoverColor: "hover:from-orange-400/30 hover:to-red-400/30"
     }
