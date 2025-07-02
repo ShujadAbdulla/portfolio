@@ -31,14 +31,7 @@ const Projects = () => {
       githubUrl: "https://github.com/ShujadAbdulla/p-590920",
       category: "Full Stack"
     },
-    {
-      title: "Travel Booking System Backend",
-      description: "A comprehensive backend system for managing travel bookings including buses and airports. Features booking management, route optimization, and real-time availability tracking with robust API architecture.",
-      image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=500&h=300&fit=crop",
-      technologies: ["Node.js", "Express.js", "MongoDB", "Real-time APIs"],
-      githubUrl: "https://github.com/villaswami/travlingBusesandAirports",
-      category: "Backend"
-    },
+    
     {
       title: "Prediction of Employee’s Attrition",
       description: "A machine learning model that predicts employee attrition based on various factors such as job satisfaction, performance metrics, and employee engagement levels.",
