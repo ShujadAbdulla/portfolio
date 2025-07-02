@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 
@@ -12,7 +11,7 @@ const Hero = () => {
           <div className="mb-8 group">
             <div className="relative w-48 h-48 mx-auto mb-6">
               <img
-                src="public/images/profile.jpg"
+                src="\images\profileDP.jpg"
                 alt="Shujad Abdulla"
                 className="w-full h-full rounded-full object-cover border-4 border-white/30 shadow-2xl hover:scale-110 transition-all duration-500 hover:shadow-purple-500/25 hover:border-purple-400/50"
               />

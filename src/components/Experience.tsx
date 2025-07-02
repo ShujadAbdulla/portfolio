@@ -39,13 +39,13 @@ const Experience = () => {
     {
       title: "Topper of the Batch",
       description: "Achieved the highest CGPA in M.Tech CSE at GITAM University",
-      image: "public/images/OIP (1).jpg",
+      image: "/images/OIP (1).jpg",
       type: "achievement"
     },
     {
       title: "Winner of College Level Paper Presentation",
       description: "Presented a paper on Waste to Energy at the College Conference",
-      image: "public/images/research-paper-presentation.jpg",
+      image: "/images/research-paper-presentation.jpg",
       type: "achievement"
     },
     {

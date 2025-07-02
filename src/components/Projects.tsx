@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Github, ArrowUp } from 'lucide-react';
 
@@ -7,7 +6,7 @@ const Projects = () => {
     {
       title: "CareConnect",
       description: "A Professional home Nursing Care at Your Doorstep. It helps users create personalized care plans. Built with modern web technologies, this full-stack application uses AI to suggest treatments, medications, and activities based on patient needs and preferences.",
-      image: "public/images/1.jpg",
+      image: "/images/1.jpg",
       technologies: ["React.js", "Node.js", "HTML","CSS","JavaScript", "MongoDB", "Express.js"],
       liveUrl: "https://careconnect-wireframe-wizard.lovable.app/",
       githubUrl: "https://github.com/ShujadAbdulla/careconnect-wireframe-wizard?tab=readme-ov-file",
@@ -16,7 +15,7 @@ const Projects = () => {
     {
       title: "CareConnect",
       description: "An Medical Transport platform that leverages Google's Gemini AI to provide patients with reliable medical and non-medical transportation services, enhancing accessibility to healthcare for everyone.",
-      image: "public/images/2.jpg",
+      image: "/images/2.jpg",
       technologies: ["React.js", "Gemini AI", "JavaScript", "CSS3", "API Integration"],
       liveUrl: "https://travel-gemini-connect-app.lovable.app/",
       githubUrl: "https://github.com/ShujadAbdulla/travel-gemini-connect-app?tab=readme-ov-file",
@@ -25,7 +24,7 @@ const Projects = () => {
     {
       title: "SJ Services",
       description: "Professional sound and lighting solutions that bring your event to life. From concerts to private parties, we deliver exceptional audiovisual experiences.",
-      image: "public/images/3.jpg",
+      image: "/images/3.jpg",
       technologies:  ["React.js", "Gemini AI", "JavaScript", "CSS3", "API Integration"],
       liveUrl: "https://p-590920.lovable.app/",
       githubUrl: "https://github.com/ShujadAbdulla/p-590920",
@@ -35,28 +34,28 @@ const Projects = () => {
     {
       title: "Prediction of Employee’s Attrition",
       description: "A machine learning model that predicts employee attrition based on various factors such as job satisfaction, performance metrics, and employee engagement levels.",
-      image: "public/images/50662High-employee-turnover.jpg",
+      image: "/images/50662High-employee-turnover.jpg",
       technologies: ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-learn","Matplotlib","Seaborn"],
       category: "Backend"
     },
     {
       title: "Image segmentation using U-Net",
       description: "A deep learning project focused on image segmentation using U-Net architecture. The model is trained to accurately segment images into different regions for various applications.",
-      image: "public/images/1_B16t8Do6hvuq2Q_2YOM-UQ.jpg",
+      image: "/images/1_B16t8Do6hvuq2Q_2YOM-UQ.jpg",
       technologies:  ["Python", "Deep Learning", "TensorFlow", "Keras", "Image Processing", "U-Net","machine learning","numpy","pandas","matplotlib","seaborn"],
       category: "AI/ML"
     },
     {
       title: "Sequence Based Analysis (LSTM) News Text Classification",
       description: "A deep learning project that utilizes LSTM (Long Short-Term Memory) networks for classifying news articles into different categories based on their content. The model is trained on a large dataset of news articles and can accurately predict the category of unseen articles.",
-      image: "public/images/nlp-tutorial-text-classification.jpg",
+      image: "/images/nlp-tutorial-text-classification.jpg",
       technologies: ["Python", "Deep Learning", "TensorFlow", "Keras", "Natural Language Processing"],
       category: "AI/ML"
     },
     {
       title: "Detection of Irregularities on Steel Surface using Deep Learning",
       description: "A deep learning project focused on detecting irregularities on steel surfaces using advanced image processing techniques. The model is trained to identify defects and anomalies in steel products.",
-      image: "public/images/4.jpg",
+      image: "/images/4.jpg",
       technologies:  ["Python", "Deep Learning", "TensorFlow", "Keras", "Image Processing", "U-Net","machine learning","numpy","pandas","matplotlib","seaborn"],
       category: "AI/ML"
     },
