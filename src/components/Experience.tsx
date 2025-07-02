@@ -39,49 +39,49 @@ const Experience = () => {
     {
       title: "Topper of the Batch",
       description: "Achieved the highest CGPA in M.Tech CSE at GITAM University",
-      image: "public/images/OIP (1).webp",
+      image: "public/images/OIP (1).jpg",
       type: "achievement"
     },
     {
       title: "Winner of College Level Paper Presentation",
       description: "Presented a paper on Waste to Energy at the College Conference",
-      image: "public/images/research-paper-presentation.png",
+      image: "public/images/research-paper-presentation.jpg",
       type: "achievement"
     },
     {
       title: "Introduction to Microsoft Azure Cloud Services",
       description: "Certified in Azure cloud fundamentals and services by Microsoft",
-      image: "/images/Azure.png",
+      image: "/images/Azure.jpg",
       type: "certificate"
     },
     {
       title: "Preparing Data for Analysis with Microsoft Excel",
       description: "Comprehensive certification covering data preparation and analysis techniques using Excel by Microsoft",
-      image: "/images/Excel data Analysis.png",
+      image: "/images/Excel data Analysis.jpg",
       type: "certificate"
     },
     {
       title: "Generative AI: Introduction and Applications",
       description: "Comprehensive certification covering generative AI concepts and applications by IBM",
-      image: "/images/GenAI.png",
+      image: "/images/GenAI.jpg",
       type: "certificate"
     },
     {
       title: "Introduction to Artificial Intelligence (AI)",
       description: "Comprehensive certification covering AI concepts and applications by IBM",
-      image: "/images/Intro to Software Engg.png",
+      image: "/images/Intro to Software Engg.jpg",
       type: "certificate"
     },
     {
       title: "Harnessing the Power of Data with Power BI",
       description: "Comprehensive certification covering data analytics and business intelligence using Power BI by Microsoft",
-      image: "/images/power Bi.png",
+      image: "/images/power Bi.jpg",
       type: "certificate"
     },
     {
       title: "Generative AI: Prompt Engineering",
       description: "Professional certification in prompt engineering for generative AI by IBM",
-      image: "/images/Prompt engg.png",
+      image: "/images/Prompt engg.jpg",
       type: "certificate"
     }
   ];
