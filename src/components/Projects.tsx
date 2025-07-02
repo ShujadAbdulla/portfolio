@@ -5,30 +5,31 @@ import { Github, ArrowUp } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "AI Travel Agent",
-      description: "An intelligent AI-powered travel planning agent that helps users create personalized trip itineraries. Built with modern web technologies, this full-stack application uses AI to suggest destinations, accommodations, and activities based on user preferences and budget constraints.",
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=500&h=300&fit=crop",
-      technologies: ["React.js", "Node.js", "AI/ML", "MongoDB", "Express.js"],
-      liveUrl: "https://addtrip.netlify.app/",
-      githubUrl: "https://github.com/villaswami/AI_Agent_traveling",
+      title: "CareConnect",
+      description: "A Professional home Nursing Care at Your Doorstep. It helps users create personalized care plans. Built with modern web technologies, this full-stack application uses AI to suggest treatments, medications, and activities based on patient needs and preferences.",
+      image: "public/images/1.png",
+      technologies: ["React.js", "Node.js", "HTML","CSS","JavaScript", "MongoDB", "Express.js"],
+      liveUrl: "https://careconnect-wireframe-wizard.lovable.app/",
+      githubUrl: "https://github.com/ShujadAbdulla/careconnect-wireframe-wizard?tab=readme-ov-file",
       category: "Full Stack"
     },
     {
-      title: "Travel Gemini Explorer Backend",
-      description: "A comprehensive travel exploration platform that leverages Google's Gemini AI to provide intelligent travel recommendations and planning. Features include destination discovery, itinerary generation, and personalized travel suggestions with a modern, responsive interface.",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500&h=300&fit=crop",
+      title: "CareConnect",
+      description: "An Medical Transport platform that leverages Google's Gemini AI to provide patients with reliable medical and non-medical transportation services, enhancing accessibility to healthcare for everyone.",
+      image: "public/images/2.png",
       technologies: ["React.js", "Gemini AI", "JavaScript", "CSS3", "API Integration"],
-      liveUrl: "https://travel-gemini-explorer.lovable.app/",
-      githubUrl: "https://github.com/villaswami/travel-gemini-explorer",
+      liveUrl: "https://travel-gemini-connect-app.lovable.app/",
+      githubUrl: "https://github.com/ShujadAbdulla/travel-gemini-connect-app?tab=readme-ov-file",
       category: "Full Stack"
     },
     {
-      title: "Streaming Platform Backend",
-      description: "A robust backend system for a streaming platform built with Node.js and Express.js. Features include user authentication, content management, video streaming optimization, user profiles, and comprehensive API endpoints for frontend integration.",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=500&h=300&fit=crop",
-      technologies:  ["Node.js", "Express.js", "MongoDB", "Real-time APIs"],
-      githubUrl: "https://github.com/villaswami/streming_platform",
-      category: "Backend"
+      title: "SJ Services",
+      description: "Professional sound and lighting solutions that bring your event to life. From concerts to private parties, we deliver exceptional audiovisual experiences.",
+      image: "public/images/3.png",
+      technologies:  ["React.js", "Gemini AI", "JavaScript", "CSS3", "API Integration"],
+      liveUrl: "https://p-590920.lovable.app/",
+      githubUrl: "https://github.com/ShujadAbdulla/p-590920",
+      category: "Full Stack"
     },
     {
       title: "Travel Booking System Backend",
@@ -39,26 +40,33 @@ const Projects = () => {
       category: "Backend"
     },
     {
-      title: "24*7 Pizza Delivery",
-      description: "A full-featured online pizza ordering system that allows users to customize and order pizzas from home. Built with React.js frontend, Node.js backend, and MongoDB database, featuring real-time order tracking and payment integration.",
-      image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&h=300&fit=crop",
-      technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Payment Gateway"],
-      category: "Full Stack"
-    },
-    {
-      title: "Online Shopping System",
-      description: "A comprehensive e-commerce platform providing users with convenient online shopping experience. Built with Node.js backend and SQLite database, featuring product catalog, shopping cart, user authentication.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&h=300&fit=crop",
-      technologies:  ["Node.js", "Express.js", "MongoDB", "Real-time APIs"],
+      title: "Prediction of Employee’s Attrition",
+      description: "A machine learning model that predicts employee attrition based on various factors such as job satisfaction, performance metrics, and employee engagement levels.",
+      image: "public/images/50662High-employee-turnover.jpg",
+      technologies: ["Python", "Machine Learning", "Pandas", "NumPy", "Scikit-learn","Matplotlib","Seaborn"],
       category: "Backend"
     },
     {
-      title: "Drowsiness Detection System",
-      description: "An innovative car safety technology designed to prevent accidents caused by driver drowsiness and fatigue. Uses deep learning algorithms and computer vision to monitor driver behavior in real-time and provide alerts when drowsiness is detected.",
-      image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=500&h=300&fit=crop",
-      technologies: ["Python", "Deep Learning", "OpenCV", "TensorFlow", "Computer Vision"],
+      title: "Image segmentation using U-Net",
+      description: "A deep learning project focused on image segmentation using U-Net architecture. The model is trained to accurately segment images into different regions for various applications.",
+      image: "public/images/1_B16t8Do6hvuq2Q_2YOM-UQ.png",
+      technologies:  ["Python", "Deep Learning", "TensorFlow", "Keras", "Image Processing", "U-Net","machine learning","numpy","pandas","matplotlib","seaborn"],
       category: "AI/ML"
-    }
+    },
+    {
+      title: "Sequence Based Analysis (LSTM) News Text Classification",
+      description: "A deep learning project that utilizes LSTM (Long Short-Term Memory) networks for classifying news articles into different categories based on their content. The model is trained on a large dataset of news articles and can accurately predict the category of unseen articles.",
+      image: "public/images/nlp-tutorial-text-classification.png",
+      technologies: ["Python", "Deep Learning", "TensorFlow", "Keras", "Natural Language Processing"],
+      category: "AI/ML"
+    },
+    {
+      title: "Detection of Irregularities on Steel Surface using Deep Learning",
+      description: "A deep learning project focused on detecting irregularities on steel surfaces using advanced image processing techniques. The model is trained to identify defects and anomalies in steel products.",
+      image: "public/images/4.png",
+      technologies:  ["Python", "Deep Learning", "TensorFlow", "Keras", "Image Processing", "U-Net","machine learning","numpy","pandas","matplotlib","seaborn"],
+      category: "AI/ML"
+    },
   ];
 
   const getCategoryColor = (category) => {

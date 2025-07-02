@@ -12,26 +12,26 @@ const Hero = () => {
           <div className="mb-8 group">
             <div className="relative w-48 h-48 mx-auto mb-6">
               <img
-                src="/images/2E.jpg"
-                alt="Villa Swami Kiran"
+                src="public/images/WhatsApp Image 2025-06-30 at 5.06.03 PM.jpeg"
+                alt="Shujad Abdulla"
                 className="w-full h-full rounded-full object-cover border-4 border-white/30 shadow-2xl hover:scale-110 transition-all duration-500 hover:shadow-purple-500/25 hover:border-purple-400/50"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-500/20 to-pink-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-400 transition-all duration-500">
-            Villa Swami Kiran
+            Shujad Abdulla
           </h1>
           <h2 className="text-2xl md:text-3xl text-blue-300 mb-8 hover:text-purple-300 transition-colors duration-300">
-            Full Stack Developer & Software Instructor
+            Front End Developer & Software Developer Instructor
           </h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed hover:text-white transition-colors duration-300">
-            Passionate software engineer with expertise in full-stack development, 
-            currently mentoring aspiring developers and building innovative solutions.
+            Passionate software engineer with expertise in front-end development,
+            currently Instructing and Inspiring aspiring developers and building innovative solutions.
           </p>
           <div className="flex justify-center space-x-6 mb-12">
             <a
-              href="https://www.linkedin.com/in/swami-kiran-villa-3a43b520a"
+              href="https://www.linkedin.com/in/shujad-abdulla-shaik-muhammed/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white p-4 rounded-full transition-all duration-300 hover:scale-125 hover:rotate-6 shadow-lg hover:shadow-blue-500/25"
@@ -39,7 +39,7 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="https://github.com/villaswami"
+              href="https://github.com/ShujadAbdulla"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-gray-800 to-gray-900 hover:from-gray-700 hover:to-gray-800 text-white p-4 rounded-full transition-all duration-300 hover:scale-125 hover:rotate-6 shadow-lg hover:shadow-gray-500/25"
@@ -47,7 +47,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="mailto:villa.swamikiran9490@gmail.com"
+              href="mailto:shaikmuhammed.shujadabdulla@nxtwave.co.in"
               className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-500 hover:to-red-600 text-white p-4 rounded-full transition-all duration-300 hover:scale-125 hover:rotate-6 shadow-lg hover:shadow-red-500/25"
             >
               <Mail size={24} />

@@ -21,7 +21,7 @@ const Contact = () => {
     // Create mailto link with form data
     const subject = encodeURIComponent(`Portfolio Contact: ${formData.name}`);
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-    window.location.href = `mailto:villa.swamikiran9490@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:shaikmuhammed.shujadabdulla@nxtwave.co.in?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -50,7 +50,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold group-hover:text-blue-300 transition-colors duration-300">Email</h4>
-                  <p className="text-gray-300 group-hover:text-white transition-colors duration-300">villa.swamikiran9490@gmail.com</p>
+                  <p className="text-gray-300 group-hover:text-white transition-colors duration-300">shaikmuhammed.shujadabdulla@nxtwave.co.in</p>
                 </div>
               </div>
               
@@ -61,12 +61,12 @@ const Contact = () => {
                 <div>
                   <h4 className="text-white font-semibold group-hover:text-purple-300 transition-colors duration-300">GitHub</h4>
                   <a 
-                    href="https://github.com/villaswami" 
+                    href="https://github.com/ShujadAbdulla" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-300 group-hover:text-white transition-colors duration-300"
                   >
-                    github.com/villaswami
+                    github.com/ShujadAbdulla
                   </a>
                 </div>
               </div>
@@ -78,12 +78,12 @@ const Contact = () => {
                 <div>
                   <h4 className="text-white font-semibold group-hover:text-blue-300 transition-colors duration-300">LinkedIn</h4>
                   <a 
-                    href="https://www.linkedin.com/in/swami-kiran-villa-3a43b520a" 
+                    href="https://www.linkedin.com/in/shujad-abdulla-shaik-muhammed/"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-300 group-hover:text-white transition-colors duration-300"
                   >
-                    Connect with me
+                    Shujad Abdulla
                   </a>
                 </div>
               </div>
@@ -152,7 +152,7 @@ const Contact = () => {
         
         <div className="text-center mt-16 pt-8 border-t border-white/10">
           <p className="text-gray-400 hover:text-white transition-colors duration-300">
-            © 2024 Villa Swami Kiran. Built with React and passion for great code.
+            © 2024 Shujad Abdulla. Built with React and passion for great code.
           </p>
         </div>
       </div>

@@ -1,33 +1,47 @@
 
+import { Power } from 'lucide-react';
 import React from 'react';
 
 const Skills = () => {
   const skillCategories = [
     {
       title: "Frontend Development",
-      skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Responsive Design", "UI/UX Design"],
+      skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design", "Figma", "Tailwind CSS", "Bootstrap"],
       color: "from-cyan-500/20 to-blue-500/20",
       hoverColor: "hover:from-cyan-400/30 hover:to-blue-400/30"
     },
     {
-      title: "Backend Development", 
-      skills: ["Python", "Node.js", "C#", "VB.NET", "API Development", "Express.js"],
+      title: "Programming Languages",
+      skills: ["Python", "JavaScript", "C++"],
       color: "from-emerald-500/20 to-green-500/20",
       hoverColor: "hover:from-emerald-400/30 hover:to-green-400/30"
     },
     {
       title: "Database & Tools",
-      skills: ["SQL", "MongoDB", "SQLite", "Git", "GitHub", "Postman"],
+      skills: ["SQL", "Git", "GitHub","Azure" ],
       color: "from-purple-500/20 to-pink-500/20",
       hoverColor: "hover:from-purple-400/30 hover:to-pink-400/30"
     },
     {
       title: "Technologies & Frameworks",
-      skills: [ "Machine Learning", "Full Stack Development","Angular JS", "ASP.NET"],
+      skills: [ "Machine Learning", "Data Structures", "Algorithms", "Deep Learning", "Computer Vision", "Natural Language Processing", "OpenCV", "TensorFlow", "PyTorch", "Power BI", "Power Automate", "Power Apps", "Microsoft Copilot","Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn"],
       color: "from-orange-500/20 to-red-500/20",
       hoverColor: "hover:from-orange-400/30 hover:to-red-400/30"
-    }
-  ];
+    },
+    {
+      title: "Mechanical Engineering Tools",
+      skills: [ "Ansys", "Solidworks", "Solid edge", "AutoCAD", "MS-Office","HVAC System Design", "Thermal Analysis", "Fluid Dynamics", "Finite Element Analysis (FEA)", "Computer-Aided Design (CAD)"],
+      color: "from-orange-500/20 to-red-500/20",
+        hoverColor: "hover:from-orange-400/30 hover:to-red-400/30"
+      },
+      {
+        title: "Other Skills & Soft Skills",
+        skills: ["Business Operations", "Project Management","Data Analysis","Content Creation", "Team Collaboration", "Effective Communication", "Time Management", "Adaptability"],
+        color: "from-gray-500/20 to-gray-600/20",
+        hoverColor: "hover:from-gray-400/30 hover:to-gray-500/30"
+    },
+    ];
+   
 
   return (
     <section className="py-20 bg-gradient-to-br from-slate-900/50 via-purple-900/30 to-indigo-900/50 backdrop-blur-sm">

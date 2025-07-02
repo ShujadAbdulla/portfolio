@@ -14,7 +14,7 @@ const About = () => {
               <p className="text-gray-300 text-lg leading-relaxed hover:text-white transition-colors duration-300">
                I'm a passionate and dedicated software developer with a strong interest in building impactful solutions and continuously expanding my technical skill set. I’m currently seeking opportunities that allow me to leverage my passion for software development, contribute to real-world projects, and grow both personally and professionally.
 
-With hands-on experience in Python, Node.js, JavaScript, HTML, CSS, C#, and basic SQLite, I enjoy tackling challenges and translating ideas into functional, user-friendly applications. I believe in lifelong learning and am always eager to explore new technologies and development practices.
+With hands-on experience in Python, JavaScript, HTML, CSS, C++, and MySQL, I enjoy tackling challenges and translating ideas into functional, user-friendly applications. I believe in lifelong learning and am always eager to explore new technologies and development practices.
 
 
               </p>
@@ -47,24 +47,35 @@ Solving real-world problems through code
                 <div className="space-y-4">
                   <div className="hover:bg-white/10 p-3 rounded transition-all duration-300">
                     <h4 className="text-blue-300 font-medium group-hover:text-pink-300 transition-colors duration-300">
-                      Integrated M.Tech in Software Engineering
+                      M.Tech in Computer Science and Engineering
                     </h4>
                     <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
-                      Vellore Institute of Technology, AP
+                      GITAM University
                     </p>
                     <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
-                      2017-2022 • GPA: 7.87/10
+                      2013-2025 • CGPA: 9.3 /10
                     </p>
                   </div>
                   <div className="hover:bg-white/10 p-3 rounded transition-all duration-300">
                     <h4 className="text-blue-300 font-medium group-hover:text-pink-300 transition-colors duration-300">
-                      Intermediate Education
+                      B.Tech in Mechanical Engineering
                     </h4>
                     <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
-                      Sri Chaitanya Junior College
+                      R.G.M College of Engineering and Technology
                     </p>
                     <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
-                      2015-2017 • 90%
+                      2019-2022 • CGPA: 7.7 /10
+                    </p>
+                  </div>
+                  <div className="hover:bg-white/10 p-3 rounded transition-all duration-300">
+                    <h4 className="text-blue-300 font-medium group-hover:text-pink-300 transition-colors duration-300">
+                      Diploma in Mechanical Engineering
+                    </h4>
+                    <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+                      E.S.C Govt Polytechnic College
+                    </p>
+                    <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+                      2016-2018 • 68%
                     </p>
                   </div>
                   <div className="hover:bg-white/10 p-3 rounded transition-all duration-300">
@@ -72,11 +83,10 @@ Solving real-world problems through code
                       10th Education
                     </h4>
                     <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
-                      St.Anthony's High School
+                      Good Shepherd E.M High School
                     </p>
                     <p className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
-                      2014-2015 • 62%
-                    </p>
+                      2015-2016 • CGPA: 7.7 / 10                    </p>
                   </div>
                 </div>
               </div>
@@ -86,8 +96,8 @@ Solving real-world problems through code
                 </h3>
                 <div className="space-y-2 text-gray-300 group-hover:text-white transition-colors duration-300">
                   <p className="hover:text-green-300 transition-colors duration-200">📍 Hyderabad, India</p>
-                  <p className="hover:text-green-300 transition-colors duration-200">📱 +91 9603029838</p>
-                  <p className="hover:text-green-300 transition-colors duration-200">✉️ villa.swamikiran9490@gmail.com</p>
+                  <p className="hover:text-green-300 transition-colors duration-200">📱 +91 9398120897</p>
+                  <p className="hover:text-green-300 transition-colors duration-200">✉️ shaikmuhammed.shujadabdulla@nxtwave.co.in</p>
                 </div>
               </div>
             </div>

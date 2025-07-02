@@ -5,58 +5,83 @@ const Experience = () => {
     {
       title: "Software Developer Instructor",
       company: "NXTWave",
-      period: "April 2024 - Present",
-      location: "Remote",
+      period: "April 2025 - Present",
+      location: "Hyderabad",
       responsibilities: [
-        "Mentoring and guiding aspiring software engineers in core and advanced development skills",
+        "Instructing and guiding aspiring software engineers in core and advanced development skills",
         "Delivering structured training and project-based learning on full-stack technologies",
-        "Teaching Frontend: HTML, CSS, JavaScript and Backend: Python, Node.js",
-        "Conducting live sessions, code reviews, and technical doubt-clearing sessions",
-        "Guiding learners through version control systems (Git, GitHub) and API integration",
+        "Teaching Frontend: HTML, CSS, JavaScript ",
+        "Guiding learners through version control systems and API integration",
         "Collaborating with internal teams to enhance curriculum and assessment standards",
         "Helping shape hundreds of learners into capable developers"
       ],
       impact: "Developed deep understanding of software fundamentals and effective teaching methodologies"
     },
     {
-      title: "Software Engineer",
-      company: "Siemens Technology Services Private Limited",
+      title: "Bussiness Operations Intern",
+      company: "Prodokraft",
       period: "July 2022 - November 2023",
-      location: "Bengaluru",
+      location: "Remote",
       responsibilities: [
-        "Worked as a front-end developer implementing Analysis Tool platform for large industries",
-        "Migrated entire user interface to align with Siemens industrial experience standards",
-        "Customized original components based on specific project requirements",
-        "Developed desktop applications using VB.NET/C# focusing on TMS tool implementation",
-        "Facilitated testing of various test cases contributing to overall testing process"
+        "Leading the data scraping process to enhance product and seller insights.",
+        "Reviewing and approving seller registrations, ensuring compliance and platform integrity.",
+        "Supervising the end-to-end product approval and listing process to maintain quality standards.",
+        "Managing and redefining product categories across the website for better user experience and visibility.",
+        "Collaborating with the Founder’s Office on incubation grants to scale operations.",
+        "Spearheaded the hiring process for a Business Operations Intern, expanding our team’s capabilities.",
       ],
+    
       impact: "Successfully delivered enterprise-grade solutions meeting industry standards"
     }
   ];
 
   const certificationsAndAchievements = [
     {
-      title: "Delivery Excellence Achievement",
-      description: "Recognized for outstanding performance towards achieving Delivery Excellence at Siemens Advanta",
-      image: "/images/e81d99db-30ea-4775-9344-6fd7a4b297a8.png",
+      title: "Topper of the Batch",
+      description: "Achieved the highest CGPA in M.Tech CSE at GITAM University",
+      image: "public/images/OIP (1).webp",
       type: "achievement"
     },
     {
-      title: "Java Certificate by HackerRank",
-      description: "Certified in Java programming fundamentals and advanced concepts",
-      image: "/images/4f8eeb16-2e46-4707-8ce9-d1f4171940a9.png",
+      title: "Winner of College Level Paper Presentation",
+      description: "Presented a paper on Waste to Energy at the College Conference",
+      image: "public/images/research-paper-presentation.png",
+      type: "achievement"
+    },
+    {
+      title: "Introduction to Microsoft Azure Cloud Services",
+      description: "Certified in Azure cloud fundamentals and services by Microsoft",
+      image: "/images/Azure.png",
       type: "certificate"
     },
     {
-      title: "ProGrad Certified Full Stack Developer", 
-      description: "Comprehensive certification covering full-stack development technologies",
-      image: "/images/247d184d-e56a-46b8-9728-593651823f0e.png",
+      title: "Preparing Data for Analysis with Microsoft Excel",
+      description: "Comprehensive certification covering data preparation and analysis techniques using Excel by Microsoft",
+      image: "/images/Excel data Analysis.png",
       type: "certificate"
     },
     {
-      title: "NASSCOM Certified Associate Analytics (SSC/Q2101) LEVEL 7",
-      description: "Professional certification in data analytics and business intelligence",
-      image: "/images/56ab1911-a0e1-41f2-b8cd-caaa4494f23c.png",
+      title: "Generative AI: Introduction and Applications",
+      description: "Comprehensive certification covering generative AI concepts and applications by IBM",
+      image: "/images/GenAI.png",
+      type: "certificate"
+    },
+    {
+      title: "Introduction to Artificial Intelligence (AI)",
+      description: "Comprehensive certification covering AI concepts and applications by IBM",
+      image: "/images/Intro to Software Engg.png",
+      type: "certificate"
+    },
+    {
+      title: "Harnessing the Power of Data with Power BI",
+      description: "Comprehensive certification covering data analytics and business intelligence using Power BI by Microsoft",
+      image: "/images/power Bi.png",
+      type: "certificate"
+    },
+    {
+      title: "Generative AI: Prompt Engineering",
+      description: "Professional certification in prompt engineering for generative AI by IBM",
+      image: "/images/Prompt engg.png",
       type: "certificate"
     }
   ];
